@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://news-summariser-bc3409.herokuapp.com/",
+  "dependencies": {
+    "@emotion/react": "11.10.5",
+    "@emotion/styled": "11.10.5",
+    "@mui/icons-material": "5.10.9",
+    "@mui/material": "5.10.13",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-loader-spinner": "5.3.4",
+    "react-promise-tracker": "2.1.1",
+    "react-router-dom": "6.4.3",
+    "react-scripts": "5.0.1",
+    "react-wordcloud": "1.2.7",
+    "serve": "14.1.1"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
